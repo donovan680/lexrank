@@ -1,6 +1,6 @@
 from lexrank import LexRank
 from lexrank.mappings.stopwords import STOPWORDS
-from path import Path
+from tests.settings import DATA_ROOT
 
 documents = []
 documents_dir = Path('bbc/politics')

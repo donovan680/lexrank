@@ -7,7 +7,7 @@ import pytest
 
 from lexrank import LexRank
 from lexrank.mappings.stopwords import STOPWORDS
-from tests.settings import DATA_ROOT
+from settings import DATA_ROOT
 
 
 def test_lexrank():

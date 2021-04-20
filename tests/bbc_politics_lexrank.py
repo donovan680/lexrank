@@ -5,7 +5,7 @@ import numpy as np
 import pytest
 from lexrank import LexRank
 from lexrank.mappings.stopwords import STOPWORDS
-from tests.settings import DATA_ROOT
+from path import Path
 
 documents = []
 documents_dir = Path('bbc/politics')
